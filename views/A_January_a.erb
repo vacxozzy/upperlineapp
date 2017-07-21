@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Monkey</title>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+          <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300" rel="stylesheet">
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.2/csshake.css"/>        
+          <style>
+              body {
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+                background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/946/images/story_full_width/forests-why-matter_63516847.jpg?1345534028);
+              }
+
+              h1, h2{
+                text-align:center;
+              }
+              
+              #monkey {
+                  height: 300px;
+                  width: 300px;
+                  padding: 20px;
+              }
+              
+              .rainbow {
+                 /* Chrome, Safari, Opera */
+                -webkit-animation: rainbow 1s infinite; 
+        
+                /* Internet Explorer */
+                -ms-animation: rainbow 1s infinite;
+                
+                /* Standar Syntax */
+                animation: rainbow 1s infinite; 
+              }
+              
+              /* Chrome, Safari, Opera */
+              @-webkit-keyframes rainbow{
+              	20%{color: red;}
+              	40%{color: yellow;}
+              	60%{color: green;}
+              	80%{color: blue;}
+              	100%{color: orange;}	
+              }
+              /* Internet Explorer */
+              @-ms-keyframes rainbow{
+              	20%{color: red;}
+              	40%{color: yellow;}
+              	60%{color: green;}
+              	80%{color: blue;}
+              	100%{color: orange;}	
+              }
+              
+              /* Standar Syntax */
+              @keyframes rainbow{
+              	20%{color: red;}
+              	40%{color: yellow;}
+              	60%{color: green;}
+              	80%{color: blue;}
+              	100%{color: orange;}	
+              }
+              
+          </style>
+    </head>
+    
+    <body>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+        <div class="col s12 m7">
+           <h1 class="rainbow">You are a monkey!!!</h1>
+           <div class="card horizontal">
+              <div class="card-image">
+                <img id = "monkey" src="https://s-media-cache-ak0.pinimg.com/originals/85/c6/e0/85c6e083a7335b10d5d1e96d65ae345b.jpg">
+           </div>
+           <div class="card-stacked">
+            <div class="card-content">
+               <ul>
+                <li>Monkeys can't see the forest for the trees</li>
+                <li>Flatter monkeys and they may do great things</li>
+                <li>Monkeys are clever with their hands and good imitators</li>
+                <li>Monkeys are restless animals of action</li>
+                <li>Monkeys move easily when given instructions</li>
+                <li>Monkeys are the cheerful life of the party</li>
+                <li>Monkeys try hard if small change is involved</li>
+                <li>Monkeys are a bit goofy</li>
+                <li>Monkeys are trusting and easily deceived</li>
+                <li>Monkeys are curious and want to improve themselves</li>
+                <li>The Monkey's destined partner is the Sheep</li>
+               </ul>
+            </div>
+            <div class="card-action">
+              <a href="https://www.youtube.com/watch?v=5nCbddLai-w">Click here to see a cute, happy monkey.</a>
+            </div>
+           </div>
+        </div>
+    </body>
+</html>
